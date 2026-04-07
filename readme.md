@@ -1,6 +1,6 @@
-# 📊 Análise de Ações Fiscais e Trabalho Análogo à Escravidão no Brasil
+# Dados de Ações Fiscais e Trabalho Análogo à Escravidão no Brasil
 
-Este projeto realiza a extração, tratamento e análise de dados do cadastro oficial de empregadores flagrados utilizando trabalho em condições análogas à escravidão no Brasil.
+Este projeto realiza a extração, tratamento de dados do cadastro oficial de empregadores flagrados utilizando trabalho em condições análogas à escravidão no Brasil.
 
 ---
 
