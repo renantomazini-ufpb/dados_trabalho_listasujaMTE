@@ -1,6 +1,7 @@
 import os
 import arrancadado
 import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
 import pandas as pd
 
 # isso [e só no windows] :/
@@ -138,6 +139,7 @@ plt.clf()
 
 # estadis por ações ficais
 
+
 top_estados_geral = (
     df.groupby("UF")
     .size()
@@ -150,7 +152,10 @@ plt.title("10 estados por quantidade de ações fiscais (geral)")
 plt.xlabel("Estado")
 plt.ylabel("Quantidade de ações fiscais")
 plt.xticks(rotation=45)
-plt.tight_layout()
 
+# 👇 força números inteiros no eixo Y
+plt.gca().yaxis.set_major_locator(ticker.MaxNLocator(integer=True)) # como assim o ticker não vem integrado?
+
+plt.tight_layout()
 plt.savefig("./output/top_estados_geral.png")
 plt.clf()
