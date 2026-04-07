@@ -134,3 +134,23 @@ plt.tight_layout()
 
 plt.savefig("./output/acoes_trabalhadores.png")
 plt.clf()
+
+
+# estadis por ações ficais
+
+top_estados_geral = (
+    df.groupby("UF")
+    .size()
+    .sort_values(ascending=False)
+    .head(10)
+)
+
+top_estados_geral.plot(kind="bar")
+plt.title("10 estados por quantidade de ações fiscais (geral)")
+plt.xlabel("Estado")
+plt.ylabel("Quantidade de ações fiscais")
+plt.xticks(rotation=45)
+plt.tight_layout()
+
+plt.savefig("./output/top_estados_geral.png")
+plt.clf()

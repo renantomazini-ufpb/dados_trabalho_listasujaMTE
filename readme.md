@@ -43,9 +43,9 @@ https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/areas-
 #### 2025
 ![Top estados 2025](output/top_estados_2025.png)
 
-#### 2026
-![Top estados 2026](output/top_estados_2026.png)
 
+#### Estados por ações fiscais total
+![estados total](output/top_estados_geral.png)
 ---
 
 ### Evolução de ações fiscais por ano
@@ -71,8 +71,7 @@ https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/areas-
 #### 2025
 ![Trabalhadores 2025](output/top_trabalhadores_2025.png)
 
-#### 2026
-![Trabalhadores 2026](output/top_trabalhadores_2026.png)
+
 
 ---
 
